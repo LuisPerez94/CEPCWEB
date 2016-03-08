@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+*{
+   font-family: 'Roboto', sans-serif;
+}
 .logo-cepc {
     margin: 0 auto;
     width: 250px;
@@ -12,6 +16,20 @@
 }
 
 .imgCarousel{
-	width: auto;
-	height: auto;
+	width: 100%;
+	min-height: 600px;
+	max-height: 600px;
+}
+
+.row{
+    margin:0;
+
+}
+.texto{
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    background-color: #5580C1;
+
 }

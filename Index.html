@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 			<!-- Para que el navegador identifique que es HTML5-->
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>CEPC</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<meta charset="UTF-8"> <!--Codificación de los caracteres en la página-->
+	<title>CEPC</title>    <!--Titulo de la pestaña del navegador-->
+
+	<!-- Scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
 	<script type="text/javascript" src="Estilos/bootstrap/js/bootstrap.min.js"></script>
-	<!-- Bootstrap -->
-	<!--<link rel="stylesheet" type="text/css" href="bootstrap.min">-->
-	
-	<link rel="stylesheet" type="text/css" href="Estilos/main.css">
-	<!--<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">-->
+	<!-- Bootstrap -->	
 	<link rel="stylesheet" type="text/css" href="Estilos/bootstrap/css/bootstrap.min.css">
+	<!-- Estilos-->
+	<link rel="stylesheet" type="text/css" href="Estilos/main.css">
 </head>
 
 <body>
@@ -39,59 +39,85 @@
 	</nav>
 	<!-- Aquí termina la barra de navegación -->
 
+	<!-- Encabezado-->
 	<header>
 		<div class="container">
-			<img class="logo-cepc" src="Imagenes\logos\cepc-4.png" alt="CEPC">
-			<h2 class="titulo">Comunidad Estudiantil de Programación Competitiva</h2>
+			<img class="logo-cepc" src="Imagenes/logos/cepc-4.png" alt="CEPC">  		<!-- Logo de CEPC-->
+			<h2 class="titulo">Comunidad Estudiantil de Programación Competitiva</h2>	
 		</div>
 	</header>
-
+	
+	<!-- Carrousel de bootstrap-->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
   	<ol class="carousel-indicators" style="z-index :1;">
     	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     	<li data-target="#myCarousel" data-slide-to="1"></li>
     	<li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
+
 	<div class="carousel-inner" role="listbox">
     	<div class="item active">
       		<img  class="imgCarousel" src="Imagenes/foto_comunidad.jpg" alt="">
+      		 <div class="carousel-caption">
+	       		 <h3>Nuestra comunidad</h3>
+	        	 <p>Beatiful flowers in Kolymbari, Crete.</p>
+    		 </div>
     	</div>
 	    <div class="item">
 	      <img class="imgCarousel"  src="Imagenes/iteso1.jpg" alt="">
+	      <div class="carousel-caption">
+	       		 <h3>Los entrenadores</h3>
+	        	 <p>Beatiful flowers in Kolymbari, Crete.</p>
+    		 </div>
 	    </div>
 	    <div class="item">
 	      <img  class="imgCarousel" src="Imagenes/concurso1chavos4.jpg" alt="">
+	      <div class="carousel-caption">
+	       		 <h3>Las competencias</h3>
+	        	 <p>Beatiful flowers in Kolymbari, Crete.</p>
+    		 </div>
 	    </div>
     </div>
 
 
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+	
+	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
 </div>
 
 
 
 
-	<section>
-		<p>
-		Es un espacio donde jóvenes puedan aprender y compartir experiencias en el área de tecnologías de información y programación
+	<section class="row">
+
+		<p class="texto">
+		Es un espacio donde jóvenes puedan aprender y compartir experiencias en el área de tecnologías de información y Programación
 		</p>
+	</section>
+	<section class="row">
+		<section class="col-md-4">
 		<h3>Competencias</h3>
 		<p>Participamos en competencias de prográmación entre instituciones</p>
+		</section>
+		<section class="col-md-4">
 		<h3>Áreas</h3>
 		<p>Tratamos de abarcar diferentes temas entre la comunidad</p>
+		</section>
+		<section class="col-md-4">
 		<h3>¿Quienres somos?</h3>
 		<p>¿Quieres saber mas de nosotros? Entra aquí y enterate de quienes somos</p>
-
+		</section>
 	</section>
+
+
 	<footer>
-			<address></address>
+			<address>Instituto Tecnológico de Veracruz</address>
 			RedesSociales
 			
 	</footer>
