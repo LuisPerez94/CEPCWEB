@@ -1,0 +1,17 @@
+.logo-cepc {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-bottom: -50px;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.imgCarousel{
+	width: auto;
+	height: auto;
+}
