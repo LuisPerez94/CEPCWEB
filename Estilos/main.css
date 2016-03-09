@@ -16,9 +16,9 @@
 }
 
 .imgCarousel{
-	width: 100%;
-	min-height: 600px;
-	max-height: 600px;
+	width: 50%;
+	min-height: 200px;
+	max-height: 500px;
 }
 
 .row{
@@ -28,7 +28,14 @@
 .texto{
     font-size: 30px;
     text-align: center;
+} 
+p{
+    text-align: center;
 }
+h2{
+    text-align: center;
+}
+
 footer{
     background-color: #5580C1;
 
