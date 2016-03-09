@@ -16,9 +16,10 @@
 }
 
 .imgCarousel{
-	width: 50%;
-	min-height: 200px;
-	max-height: 500px;
+
+    width: 100%;
+    min-height: 449px;
+    max-height: 440px;
 }
 
 .row{
@@ -29,6 +30,9 @@
     font-size: 30px;
     text-align: center;
 } 
+.divisiones{
+    text-align: center;
+}
 p{
     text-align: center;
 }
@@ -40,3 +44,12 @@ footer{
     background-color: #5580C1;
 
 }
+header{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a0809+0,6e7774+58,6e7774+58&1+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(10,8,9,1) 0%, rgba(110,119,116,0.42) 58%, rgba(110,119,116,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(10,8,9,1) 0%,rgba(110,119,116,0.42) 58%,rgba(110,119,116,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(10,8,9,1) 0%,rgba(110,119,116,0.42) 58%,rgba(110,119,116,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0809', endColorstr='#006e7774',GradientType=0 ); /* IE6-9 */
+
+
+  }
