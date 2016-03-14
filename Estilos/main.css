@@ -26,7 +26,8 @@
     text-align: center;
 }
 .jumbotron{
-    background: url("/Imagenes/foto_comunidad.jpg") no-repeat center center; 
+    background-image: url("../Imagenes/foto_comunidad.jpg");
+    background-repeat:no-repeat; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -43,7 +44,7 @@
 }*/
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:50px;
 }
 
 .jumbotron h1 {

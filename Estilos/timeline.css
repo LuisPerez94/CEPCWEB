@@ -1,0 +1,155 @@
+$dot: 30px;
+$dot-colour: #0065b3;
+$dot-border: $dot / 8;
+$bg-colour: #f1f1f1;
+$small-breakpoint: 500px;
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.timeline-wrap {
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+  background-color: inherit;
+}
+
+.timeline:after {
+  content: '';
+  position : absolute;
+  width: 5px;
+  background-color: #0065b3;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  margin-left: -2px;
+}
+
+.timeline--first:after {
+  top: 20px;
+}
+
+.era {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 20px;
+}
+
+.era__title {
+  background-color: #0065b3;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.entry {
+  padding: 10px 30px 40px 30px;
+  width: 50%;
+  position: relative;
+  background-color: inherit;
+}
+
+.entry--right {
+  margin-left: 50%;
+}
+
+.entry__content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+}
+
+.entry:before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 20px;
+    width: 0;
+    z-index: 1;
+}
+
+.entry--left:before {
+  right: 30px - 8px;
+  border: medium solid transparent;
+  border-width: 8px 0 8px 8px;
+  border-color: transparent transparent transparent white;
+}
+
+.entry--right:before {
+   left: 30px - 8px;
+   margin-left: 0;
+   border: medium solid transparent;
+   border-width: 8px 8px 8px 0;
+   border-color: transparent white transparent transparent;
+}
+
+.entry:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: (-30px / 2) - 30px-border - 1;
+  //background-color: inherit;
+  background-color: white;
+  border: 4px solid #0065b3;
+  top: 10px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.entry--right:after {
+  right: auto;
+  left: (-30px / 2) - 30px-border;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+@media all and (max-width: $small-breakpoint) {
+  .timeline:after {
+    left: 30px + 30px-border;
+  }
+  
+  .era {
+    text-align: left;
+    padding-left: 30px + (30px-border / 2);
+  }
+  
+  .entry {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 30px + 30px + 4px;
+    padding-right: 20px;
+  }
+  
+  .entry:before {
+    right: auto;
+    left: (30px * 2) - 4px;
+    margin-left: 0;
+    border: medium solid transparent;
+    border-width: 8px 8px 8px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  .entry:after {
+    left: 30px / 2;
+  }
+}
