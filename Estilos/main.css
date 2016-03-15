@@ -26,14 +26,15 @@
     text-align: center;
 }
 .jumbotron{
-    background-image: url("../Imagenes/foto_comunidad.jpg");
+    background-image: url("../Imagenes/jumbotron-3.jpg");
     background-repeat:no-repeat; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    -webkit-background-size: 200% 200%;
+    -moz-background-size: 200% 200%;
+    -o-background-size: 200% 200%;
+    background-size: cover;
     background-repeat: no-repeat;
-    opacity: 1.0;
+    opacity: 2.0;
+    color: #FFF;
 }
 /*.jumbotron {
   background-image: url('Imagenes/concursopreparacion1.jpg');
@@ -48,15 +49,18 @@
 }
 
 .jumbotron h1 {
-  color: #000000;
+  color: #FFF;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
+  text-shadow: 1px 2px #202020 ;
 }
 
 .jumbotron p {
   font-size: 20px;
   color-font: #FFFFFF;
+  text-align: left;
+  text-shadow: 1px 2px #202020 ;
 }
 
 .title-footer{
@@ -65,6 +69,7 @@
 .footer-style h2 h4 h5 p{
     color-font: #FFFFFF;
 }
+
 .row{
   margin: 0px;
 }
