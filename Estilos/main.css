@@ -66,14 +66,13 @@
 .title-footer{
     text-align: center;
 }
-.footer-style h2 h4 h5 p{
-    color-font: #FFFFFF;
-}
-
 .row{
   margin: 0px;
 }
-
+.pre-footer h3{
+    align: center;
+    display: inline;
+}
 p{
     text-align: center;
 }
@@ -84,5 +83,6 @@ h2{
 footer{
     background-color: #708090;
     color: white;
+    padding: 50px;
 
 }
