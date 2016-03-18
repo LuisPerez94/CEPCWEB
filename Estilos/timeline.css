@@ -12,6 +12,10 @@ body {
   background-color: #f1f1f1;
 }
 
+.demo-image {
+  cursor: url("http://tholman.com/intense-images/img/plus_cursor.png") 25 25, auto;
+ 
+}
 .timeline-wrap {
 }
 

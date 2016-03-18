@@ -43,6 +43,7 @@
     <div class="container">
       <img class="logo-cepc" src="Imagenes/logos/cepc-4-sin-fondo.gif" alt="CEPC">      <!-- Logo de CEPC-->
       <h4 class="titulo">Comunidad Estudiantil de Programación Competitiva</h4> 
+
     </div>
   </header>
   <!-- Termina encabezado -->
@@ -53,7 +54,7 @@
   	<span
      class="txt-rotate"
      data-period="2000"
-     data-rotate='[ "Seguimos creciendo", "y agregando nuevas áreas a nuestra comunidad", "puedes unirte a cualquiera de ellas :)","System.out.println(Hello World!!)"]'></span>
+     data-rotate='[ "Seguimos creciendo", "y agregando nuevas áreas a nuestra comunidad", "puedes unirte a cualquiera de ellas :)","System.out.println(\"Hello World!!\");"]'></span>
 		</h1>
     	
 	</section>
@@ -61,12 +62,23 @@
 	<section class="row">
 			
 			<section class="col-md-3 divisiones">
-				
-			Programación Competitiva</section>
-			<section class="col-md-3 divisiones">Desarrollo Web</section>
+			<img class="img-circle" src="Imagenes/Programming-1.svg" width="140" height="140">
+			<h2>Programación Competitiva</h2>
+			<p>Pertenece al grupo de jovenes entuciastas que tienen pasión por la resolución de problemas computacionales a través de algoritmos y técnicas de programación, participa en concursos de nivel regional,nacional e incluso mundial, entrenate entre la comunidad para obtener más conocimiento y experiencia.</p>
+			</section>
+			<section class="col-md-3 divisiones">
+			<img class="img-circle" src="Imagenes/Programming-2.svg" width="140" height="140">
+			<h2>Desarrollo Web</h2>
+			<p>Unete a la especialidad de desarrollo web de la comunidad, y aprende desde cero a hasta un nivel avanzado del ambito web, especializate con los encargados de esta área y desarrolla proyectos que traciendan y te generen un mejor curriculum.</p>
+			</section>
+			<section class="col-md-3 divisiones">
+			<img class="img-circle" src="Imagenes/Programming-3.svg" width="140" height="140">
+			<h2>Servicio Social</h2>
+			<p>Realiza tu servicio social con nosotros, ayuda a la comunidad a sus cuestiones administrativas y genera un servicio social de valor agregado a través de la generación de proyectos que ayuden a la comunidad.</p>
+			</section>
 			<section class="col-md-3 divisiones">Apoyo a la comunidad</section>
-
-	</section>
+				<p>Apoya a la comunidad a seguir creciendo y forma parte de este gran equipo.</p>
+			</section>
 
 	
 
@@ -77,7 +89,7 @@
 		<div class="container">
   			<div class="col-sm-8 col-sm-offset-2 text-center">
       			<h2>Comunidad Estudialtil de Programación Competitiva</h2>
-      			<h5>Instituto Tecnologíco de Veracruz</h5>
+      			<h5>Instituto Tecnológico de Veracruz</h5>
      			</div><!--/col-->
 			</div><!--/container-->
 		<img src="Imagenes/1458043318_Facebook.png">
@@ -122,7 +134,7 @@
 		  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
 		  var that = this;
-		  var delta = 300 - Math.random() * 100;
+		  var delta = 150 - Math.random() * 100;
 
 		  if (this.isDeleting) { delta /= 2; }
 
@@ -132,7 +144,7 @@
 		  } else if (this.isDeleting && this.txt === '') {
 		    this.isDeleting = false;
 		    this.loopNum++;
-		    delta = 500;
+		    delta = 200;
 		  }
 
 		  setTimeout(function() {
