@@ -73,7 +73,24 @@
 .row{
   margin: 0px;
 }
-
+.logo-nav{
+    width: 70px;
+    margin-top: -23px;
+}
+.footer-style{
+    padding: 40px;
+}
+.footer-media{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+.pre-footer>ul:first-child{
+    margin-left: -20px;
+} 
+.pre-footer{
+    text-align: center;
+}
 p{
     text-align: center;
 }
@@ -82,7 +99,7 @@ h2{
 }
 
 footer{
-    background-color: #708090;
+    background-color: #003F11;
     color: white;
 
 }
