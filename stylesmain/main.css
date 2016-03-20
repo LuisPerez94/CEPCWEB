@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+*{
+   font-family: 'Roboto', sans-serif;
+}
+html{
+  font-family: 'Roboto', sans-serif;
+}
+.top-nav {
+  background: whitesmoke;
+  height: 54px;
+  
+  background-image: -webkit-linear-gradient(left, 
+    orange,
+    orangered 25%,
+    skyblue 25%,
+    deepskyblue 50%,
+    firebrick 50%,
+    firebrick 75%,
+    green 75%);
+  background-image: -ms-linear-gradient(left, 
+    orange,
+    orangered 25%,
+    skyblue 25%,
+    deepskyblue 50%,
+    firebrick 50%,
+    firebrick 75%,
+    green 75%);
+  background-image: linear-gradient(to right, 
+    orange,
+    orangered 25%,
+    skyblue 25%,
+    deepskyblue 50%,
+    firebrick 50%,
+    firebrick 75%,
+    green 75%);
+  background-size: 100% 6px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.logo-nav{
+    width: 55px;
+    margin-top: -17px;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo-cepc {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    display: block; 
+    margin-bottom: -80px;
+}
+
+.jumbotron{
+  background-image:url("../img/jumbotron-image-1.jpg");    
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 80px;
+  text-shadow: 1px 2px #202020;
+  position: relative;
+}
+
+.jumbotron h1 {
+  color: #FFF;
+  font-size: 48px;  
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 2px #202020 ;
+}
+
+.jumbotron p {
+  padding: 50px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 2px #202020 ;
+}
+
+
+/*Inicio de estilos para sección de "sobre nosotrs" */
+.logo-cepc {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-bottom: -30px;
+}
+
+.about{
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding: 10px;
+}
+
+.about h3{
+  color: #003F11;
+}
+
+.about p {
+      color: #303030;
+      font-size: 16px;
+      font-weight: 30;
+      margin-bottom: 30px
+}
+/*Fin de los estilos de "sobre nosotros" */
+
+/* Estilos para la sección de áreas */
+.services{
+  background-color: #f1f1f2;
+  padding: 50px; 
+}
+
+.row {
+  text-align: center;
+  padding-right: 30px;
+}
+
+#off {
+  background-color: transparent; text-align: center
+}
+
+.tri {    
+    border-top: 29px solid #f1f1f2;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    display: inline-block;
+    margin:auto;
+    margin-bottom:60px
+}
+/*Fin de los estilos para áreas */
+
+/*Inicio de estilos de tecnologias */
+.lang-media{
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.lang-icones>ul:first-child{
+    margin-left: -20px;
+}
+
+.lang-icones{
+    text-align: center;
+    padding-left: -150px;
+}
+/*Fin de estulos de tecnologias */
+
+/*Inicio de estilos de la insititución */
+.school{
+  text-align: center;
+}
+
+.img {
+    margin: 0 auto;
+    width: 210px;
+    height: 170px;
+    display: block;
+    margin-bottom: -30px;
+}
+
+.text-school{
+  padding: 30px;
+  text-align: center;
+}
+/*Fin de estilos de institución */
+
+.footer-media{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+.pre-footer>ul:first-child{
+    margin-left: -20px;
+} 
+.pre-footer{
+    text-align: center;
+}
+
+footer {
+    background-color: #003F11;
+
+}
+
+footer p {
+    color: #FFF;
+    padding-top: 10px;
+    float: left;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 50px
+}
+
+footer ul {
+    list-style:  none;
+    float: right
+}
+
+footer ul li {
+    color: #FFF;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 79px;
+    margin-left: 25px
+}
+
+footer ul li:hover {
+    cursor: pointer;
+    color: #e1224f
+}
+
+reed {display: inline; color: #e1224f}  
