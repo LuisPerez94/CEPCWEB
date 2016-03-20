@@ -1,135 +1,177 @@
-<!DOCTYPE html> 			<!-- Para que el navegador identifique que es HTML5-->
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-	<meta charset="UTF-8"> <!--Codificación de los caracteres en la página-->
-	<title>CEPC | Programación Competitva</title>    <!--Titulo de la pestaña del navegador-->
-	<link rel="icon" type="image/png" href="Imagenes/logos/cepc-4-icone.png">
-
-	<!-- Scripts-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
-	<script type="text/javascript" src="Estilos/bootstrap/js/bootstrap.min.js"></script>
+	<title>CEPC | Comunidad Estudiantil de Programación Competitiva</title>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="img/cepc-4-icone.png">
 	<!-- Bootstrap -->	
-	<link rel="stylesheet" type="text/css" href="Estilos/bootstrap/css/bootstrap.min.css">
-	<!-- Estilos-->
-	<link rel="stylesheet" type="text/css" href="Estilos/main.css">
+	<link rel="stylesheet" type="text/css" href="stylesmain/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesmain/main.css">
+
 </head>
-
 <body>
-
-	<!--Creamos una barra de navegación-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      	<div class="container">
-        	<div class="navbar-header">
-          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            		<span class="sr-only">Toggle navigation</span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-          		</button>
-          		<a class="navbar-brand" href="#"><img class="logo-nav" alt="CEPC" src="Imagenes/logos/cepc-4-sin-fondo-blanco.gif"></a>
-        	</div>
-        	<div id="navbar" class="collapse navbar-collapse">
-          		<ul class="nav navbar-nav">
-            		<li class="active"><a href="index.html">Inicio</a></li>
-            		<li><a href="acercade.html">Sobre la comunidad</a></li>
-            		<li><a href="areas.html">Áreas</a></li>
-          		</ul>
-        	</div>
-      	</div>
-    </nav>
-	<!--Aquí termina la barra de navegación-->
-
-    <!-- Main component for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      	<div class="formant"></div>
-        <h1>Lorem text example</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. </p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="http://getbootstrap.com/components/#navbar" role="button">View navbar docs »</a>
-    	</p>
-    </div>
-
-	<!-- Encabezado-->
-	<header>
+	<!-- Barra de navegación entre páginas -->
+	<nav class="top-nav">
+	<div class="navbar-wrapper navbar-inverse navbar-fixed-top">
 		<div class="container">
-			<img class="logo-cepc" src="Imagenes/logos/cepc-4.png" alt="CEPC">  		<!-- Logo de CEPC-->
-			<h4 class="titulo">Comunidad Estudiantil de Programación Competitiva</h4>	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                	<span class="sr-only">Toggle navigation</span>
+                	<span class="icon-bar"></span>
+                	<span class="icon-bar"></span>
+                	<span class="icon-bar"></span>
+             	</button>
+              	<a class="navbar-brand" href="index.html"><img class="logo-nav" src="img/cepc-4-sin-fondo-blanco.gif" alt="CEPC Logotipo"></a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+              	<ul class="nav navbar-nav">
+                	<li class="active"><a href="index.html">INICIO</a></li>
+                	<li><a href="areas.html">ÁREAS</a></li>
+                	<li><a href="acercade.html">¿QUIENES SOMOS?</a></li>
+                	<li><a href="contacto.html">CONTACTANOS</a></li>
+                </li>
+              </ul>
+            </div>
 		</div>
+	</div>
+	</nav>
+	<!-- Termina barra de navegación -->
+
+	<!-- Aquí empieza el header -->
+	<header>
+  		<div class="jumbotron">
+      		<div class="formant"></div>
+      			<div class="container">
+        			<h1>Lorem text example</h1>
+		        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		        	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		        	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		        	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		        	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		        	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		        	<p>
+          			<a class="btn btn-lg btn-primary" href="http://getbootstrap.com/components/#navbar" role="button">View navbar docs »</a>
+        			</p>
+        		</div>
+        </div>
 	</header>
-	<!-- Termina encabezado -->
+	<!-- Termina el header -->
+
+	<div class="container">
+		<div class="about">
+			<h3>¿Quiénes <strong>somos</strong>?</h3>
+			<div class="logo-encabezado">
+				<img class="logo-cepc" src="img/cepc-4-sin-fondo.png" alt="CEPC">  					
+			</div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</div>
+    
+    <!--Areas de CEPC -->
+    <div class="services">	
+    <section class="container">
+		<div class="container info">
+			<div class="row">
+    			
+    			<div class="col-sm-4">
+					<h2>Primer titulo</h2>
+	       			<img class="img-circle" src="img/row-1.png" width="140" height="140">
+	    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+	      			<p><a class="btn btn-default" href="#" role="button">Ver más... &raquo;</a></p>
+    			</div>
+  				
+  				
+				<div class="col-sm-4">
+					<h2>Primer titulo</h2>
+	        		<img class="img-circle" src="img/row-2.png" width="140" height="140">
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<p><a class="btn btn-default" href="#" role="button">Ver más... &raquo;</a></p>
+  				</div>			
+  				
+  				
+				<div class="col-sm-4">
+					<h2>Primer titulo</h2>
+	        		<img class="img-circle" src="img/row-3.png" width="140" height="140">
+	        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+	        		<p><a class="btn btn-default" href="#" role="button">Ver más... &raquo;</a></p>
+  				</div>
+			</div>
+    	</div>
+    </section>
+    </div>
+    <!--Fin de áreas de CEPC -->
+
+    <section id="off" class="container">
+        <div class="tri"></div>
+    </section>
+
+    <!-- Tecnologias -->
+    <div class="container">
+		<div class="lang-icones">
+			<h3>Uso de diferentes tecnologías para la solución de problemas</h3>
+			<ul>
+				<li class="lang-media"><a href=""><img src="img/java-icon.png"></a></li>
+    			<li class="lang-media"><a href=""><img src="img/js-icon.png"></a></li>
+    			<li class="lang-media"><a href=""><img src="img/php-icon.png"></a></li>
+    			<li class="lang-media"><a href=""><img src="img/github-icon.png"></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- Fin de tecnologías -->
 
 	<hr class="featurette-divider">
 
-	<!--Grow de las diferentes bases de datos que existen -->
-	
-	<section>
-		<div class="container-marketing">
-	   	<div class="container">
-			<h2>Aquí se encontrará el titulo de esta sección</h2>
-	    	<p>
-	    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	    	</p>
-
-	    	<hr class="featurette-divider">
-	    	<div class="container">
-	    	<!-- Creamos los row -->
-	    	<div class="container marketing">
-	    		<div class="row">
-
-	    			<!-- Seccionamos por tres para usar 3 imagenes con sus textos -->
-	        		<div class="col-lg-4 divisiones">
-              
-	        			<img class="img-circle" src="Imagenes/Programming-1.svg" width="140" height="140">
-                
-	        			<h2>Primer titulo</h2>
-	        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-	          		<p><a class="btn btn-default" href="#" role="button">Ver más... &raquo;</a></p>
-	        		</div>
-
-	        		<div class="col-lg-4 divisiones">
-	          			<img class="img-circle" src="Imagenes/Programming-2.svg" width="140" height="140">
-	          			<h2>Segundo titulo</h2>
-	          			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-	          			<p><a class="btn btn-default" href="#" role="button">Ver más... &raquo;</a></p>
-	        		</div>
-
-	        		<div class="col-lg-4 divisiones">
-	          			<img class="img-circle" src="Imagenes/Programming-3.svg" alt="Generic placeholder image" width="140" height="140">
-	          			<h2>Tercer titulo</h2>
-	          			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-	          			<p><a class="btn btn-default" href="#" role="button">Ver más... &raquo;</a></p>
-	        		</div>
-
-	      		</div>
-	      	</div>
-	      	<!-- Terminan los row -->
-	    </div>
-	</section>
+	<!-- Datos de la institución -->
+	<div class="container">
+		<div class="school">
+			<h3>Nuestra institución</h3>
+		</div>
+	</div>
+	<div class="container">
+		<div class="text-school">
+		<img class="img" src="img/logo-itv.png">
+		</div>
+	</div>
+	<div class="container">
+		<div class="text-school">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		</div>
+	</div>
+	<!-- Fin de los datos de la insituticón -->
 
 	<hr class="featurette-divider">
+
 
 	<div class="container">
 		<div class="pre-footer">
 			<h3>¡Siguenos en nuestras redes sociales!</h3>
 			<ul>
-				<li class="footer-media"><a href="#"><img src="Imagenes/1458043318_Facebook.png">Facebook</a></li>
-				<li class="footer-media"><a href="#"><img src="Imagenes/1458043706_YouTube.png">YouTube</a></li>
+				<li class="footer-media"><a href="#"><img src="img/facebook-icon.png"></a></li>
+				<li class="footer-media"><a href="#"><img src="img/youtube-icon.png"></a></li>
 			</ul>
 		</div>
 	</div>
-		
-	<footer class="footer-style">
-    	<div class="row">
-      		<p>&copy; 2016 CEPC Webworking</p>
-    	</div>
-	</footer>
+
+   	<footer>
+        <div class="container">
+            <p>CopyRight&copy; 2016 <reed>CEPC</reed> Webworking All Reserved</p>
+        </div>
+    </footer>
+
+
 </body>
 </html>
