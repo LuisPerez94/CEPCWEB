@@ -133,6 +133,9 @@ border-radius: 4px;
   right: auto;
   left: (-30px / 2) - 30px-border;
 }
+.timeline-wrap-image{
+  width: 200px;
+}
 
 h2 {
   margin-bottom: 0.5em;
