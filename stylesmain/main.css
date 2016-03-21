@@ -55,6 +55,9 @@ html{
     display: block; 
     margin-bottom: -80px;
 }
+.text-school{
+padding: 0px 185px;
+}
 
 .jumbotron{
   background-image:url("../img/jumbotron-image-1.jpg");    
@@ -193,6 +196,26 @@ html{
   padding: 80px;
 }
 
+.vertical-centered-text {
+   min-height: 100px;
+  -ms-display: flex;
+  display: flex;
+  /* alineacion vertical */
+  align-items: center;
+   /* alineacion horizontal */
+  justify-content: center;
+}
+.parrafoSeccion{
+   min-height: 100px;
+  -ms-display: flex;
+  display: flex;
+     /* alineacion horizontal */
+  justify-content: center;
+}
+.escuela{
+  margin-top: 50px;
+}
+
 footer {
     background-color: #003F11;
 
@@ -226,3 +249,9 @@ footer ul li:hover {
 }
 
 reed {display: inline; color: #e1224f}  
+
+@media (max-width: 550px) {
+  .parrafo-school{
+    padding: 0px 20px;
+  }
+}
