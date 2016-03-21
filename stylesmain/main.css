@@ -184,6 +184,15 @@ html{
     text-align: center;
 }
 
+.title-areas{
+  padding: 80px;
+  text-align: center;
+}
+
+.areas-first{
+  padding: 80px;
+}
+
 footer {
     background-color: #003F11;
 
